@@ -1,4 +1,3 @@
-import React from "react";
 import * as xlsx from 'xlsx';
 import { readJson } from "./readJson";
 //import * as fs from 'fs';
@@ -24,7 +23,7 @@ export async function WriteFile(data, headers, outputFilename){
     let workSheet = await xlsx.utils.json_to_sheet(data,{header: headers, skipHeader: true});
     let workBook = xlsx.utils.book_new();
     xlsx.utils.book_append_sheet(workBook, workSheet, "BackendData");
-    console.log(workBook);
+    //console.log(workBook);
     await xlsx.writeFile(workBook, outputFilename, { bookType: "csv" });
 }
 

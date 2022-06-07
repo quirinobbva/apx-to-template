@@ -28,7 +28,7 @@ const UploadFile = (props) => {
     }
 
      useEffect (()=>{
-         console.log(csvData);
+         //console.log(csvData);
      }, [csvData])
 
     return(
