@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/apx-to-template/static/css/main.96b27a6f.css",
+    "main.js": "/apx-to-template/static/js/main.aa90a774.js",
+    "index.html": "/apx-to-template/index.html",
+    "main.96b27a6f.css.map": "/apx-to-template/static/css/main.96b27a6f.css.map",
+    "main.aa90a774.js.map": "/apx-to-template/static/js/main.aa90a774.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96b27a6f.css",
+    "static/js/main.aa90a774.js"
+  ]
+}
