@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import GoogleSheetTransformer from './GoogleSheetTransformer';
 import './index.css';
 import UploadApxFile from './UploadApxFile'
 import UploadHostFile from './UploadHostFile';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const headers = ["field", "description", "type", "inputOutput", "required"];
@@ -10,6 +12,7 @@ root.render(
   <React.StrictMode>
     <UploadApxFile keys ={headers} outputFilePath = {"plantilla.csv"}/>
     <UploadHostFile keys ={headers} outputFilePath = {"plantilla.csv"}/>
+    <GoogleSheetTransformer/>
   </React.StrictMode>
 );
 

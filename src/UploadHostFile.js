@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import {readHostExcelFile} from './utils/excel.js';
 import { WriteFile } from './utils/excel.js';
-import './UploadFile.css'
+import './index.css'
+
 const UploadHostFile = (props) => {
 
     const [csvData, setCsvData] = useState(false);

@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {readAPX} from './utils/excel.js';
 import { WriteFile } from './utils/excel.js';
-import './UploadFile.css'
+import './index.css'
 const UploadApxFile = (props) => {
 
     const [csvData, setCsvData] = useState(false);
