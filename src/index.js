@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import UploadFile from './UploadFile'
+import UploadApxFile from './UploadApxFile'
+import UploadHostFile from './UploadHostFile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const headers = ["field", "description", "type", "inputOutput", "required"];
 root.render(
   <React.StrictMode>
-    <UploadFile keys ={["field","description","type","inputOutput","required"]} outputFilePath = {"plantilla.csv"}/>
+    <UploadApxFile keys ={headers} outputFilePath = {"plantilla.csv"}/>
+    <UploadHostFile keys ={headers} outputFilePath = {"plantilla.csv"}/>
   </React.StrictMode>
 );
 

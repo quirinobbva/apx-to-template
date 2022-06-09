@@ -6,13 +6,13 @@ export const inputOutputTypes = {
 
 
 export const requiredTypes = {
-    REQUIRED: {type: "REQUIRED", simils: ["required", "yes"] },
+    REQUIRED: {type: "REQUIRED", simils: ["required", "yes", "si"] },
     OPTIONAL: {type: "OPTIONAL", simils: ["required", "no"] }
 }
 
 export const dataTypes = {
-    String: { type: "String", simils: ["string"] },
-    Number: { type: "Number", simils: ["number","double", "long", "integer", "int"] },
+    String: { type: "String", simils: ["string", "alfanumerico"] },
+    Number: { type: "Number", simils: ["number","double", "long", "integer", "int", "numerico"] },
     Object: { type: "Object", simils: ["object","object", "dto", "obj"] },
     Array: { type: "Array", simils: ["array", "dto", "obj"] },
     Boolean: { type: "Boolean", simils: ["boolean","bool"] },
