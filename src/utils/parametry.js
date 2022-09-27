@@ -16,7 +16,7 @@ export const dataTypes = {
     Object: { type: "Object", simils: ["object","object", "dto", "obj"] },
     Array: { type: "Array", simils: ["array", "dto", "obj"] },
     Boolean: { type: "Boolean", simils: ["boolean","bool"] },
-    Datetime: { type: "Datetime", simils: ["datetime","date"] }
+    Datetime: { type: "Datetime", simils: ["datetime","date", "timestamp", "time"] }
 }
 
 export const template = {
